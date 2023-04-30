@@ -1,0 +1,8 @@
+version: '3'
+services:
+  microservice:
+    container_name: microservice
+    image: batesjo/microservice
+    ports:
+      - "3000:3000"
+    
